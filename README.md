@@ -146,7 +146,7 @@ go run main.go
 
 # Use Docker
 
-Use the following command to build and the Docker Image:
+Use the following command to build and push the Docker Image:
 
 ```
 docker buildx build --platform linux/amd64,linux/arm64 --push --tag hub.narasimman.xyz/go-microservice:latest .
